@@ -25,8 +25,6 @@ ActiveRecord::Schema.define(version: 2018_10_31_191837) do
   create_table "media_types", force: :cascade do |t|
     t.string "name"
     t.string "format"
-    t.string "genre"
-    t.string "bio"
     t.string "img"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

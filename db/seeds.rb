@@ -9,13 +9,13 @@ user2 = User.create(username: "TheDonald", display_name: "Daddy Donald", passwor
 
 ##MEDIA TYPES##
 
-music1 = MediaType.create(name: "LCD Soundsystem", format: "Music", genre: "Rock", bio: "Birth of Hipster Brooklyn", img: "")
+music1 = MediaType.create(name: "LCD Soundsystem", format: "Music", img: "")
 
-movie1 = MediaType.create(name: "The Dark Knight", format: "Movies", genre: "Action", bio: "The joker tryna fuck shit up", img: "")
+movie1 = MediaType.create(name: "The Dark Knight", format: "Movies", img: "")
 
-tv1 = MediaType.create(name: "Rick and Morty", format: "TV", genre: "Animated", bio: "Grandfather and Grandson rekindle relationship through science with neil degrasse tyson", img: "")
+tv1 = MediaType.create(name: "Rick and Morty", format: "TV", img: "")
 
-game1 = MediaType.create(name: "Overwatch", format: "Video Games", genre: "FPS", bio: "Overwatch is a team-based multiplayer first-person shooter video game developed and published by Blizzard Entertainment", img: "")
+game1 = MediaType.create(name: "Overwatch", format: "Video Games", img: "")
 
 ##FAVORITES##
 

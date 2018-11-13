@@ -12,6 +12,13 @@ module Api
         render json: favorite
       end
 
+      def destroy
+        @favorite = Favorite.find(params[:id])
+        @media_type = MediaType.find(params[:id])
+        @media_type.destroy
+        @favorite.destroy
+      end
+
     end
   end
 end
