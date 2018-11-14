@@ -17,12 +17,13 @@ tv1 = MediaType.create(name: "Rick and Morty", format: "TV", img: "")
 
 game1 = MediaType.create(name: "Overwatch", format: "Video Games", img: "")
 
+
 ##FAVORITES##
 
 Favorite.create(user: user1, media_type: music1)
 
-Favorite.create(user: user1, media_type: game1)
-
 Favorite.create(user: user1, media_type: movie1)
 
 Favorite.create(user: user2, media_type: tv1)
+
+Favorite.create(user: user2, media_type: game1)
